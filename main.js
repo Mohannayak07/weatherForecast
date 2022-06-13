@@ -27,7 +27,7 @@ async function plotchart(){
     data: {
         labels: weatherDetails.xaxis,
         datasets: [{
-            label: '# of Votes',
+            label: 'Temparature',
             data: weatherDetails.yaxis,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
